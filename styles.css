@@ -1,0 +1,44 @@
+body {
+    background-color: #010101;
+    color: #fcfcfc;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #ba0000;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.main-image {
+    width: 100%;
+    height: 80vh;
+    background-image: url('your-image-url.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+.box {
+    background-color: #3d0000;
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid #808080;
+}
+
+.box h1 {
+    color: #fcfcfc;
+}
+
+.box p {
+    color: #fcfcfc;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+}
